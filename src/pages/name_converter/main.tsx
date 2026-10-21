@@ -56,7 +56,7 @@ export default function NameConverter() {
                                             }
                                         >
                                             {copy === item.id ? (
-                                                <i className="fa-solid fa-clipboard-check"></i>
+                                                    <i className="fa-solid fa-clipboard-check"></i>
                                             ) : (
                                                 <i className="fa-solid fa-clipboard"></i>
                                             )}

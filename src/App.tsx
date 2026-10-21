@@ -1,4 +1,3 @@
-import "./App.css";
 import About from "./components/home/about/main";
 import Hero from "./components/home/hero/main";
 import QnA from "./components/home/qna/main";
