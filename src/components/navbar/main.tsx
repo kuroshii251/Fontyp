@@ -15,10 +15,10 @@ export default function Navbar() {
                 </div>
                 <div className="w-full lg:flex lg:items-center lg:w-auto ">
                     <a
-                        href=""
+                        href="/nickname-converter"
                         className="block text-black mt-4 hover:bg-gray-800 p-3 lg:w-20 w-full lg:text-center hover:text-white  text-start w-full rounded-xl lg:inline-block  lg:mt-0 text-black"
                     >
-                        Name
+                        Nickname
                     </a>
                     <a
                         href=""
@@ -27,19 +27,13 @@ export default function Navbar() {
                         Keyboard
                     </a>
                     <a
-                        href="  /emoji"
+                        href="/font"
                         className="block text-black mt-4 hover:bg-gray-800 p-3 lg:w-20 w-full lg:text-center  hover:text-white text-start w-full rounded-xl lg:inline-block  lg:mt-0 text-black"
                     >
                         Font
                     </a>
                     <a
-                        href=""
-                        className="block text-black mt-4 hover:bg-gray-800 p-3 lg:w-20 w-full lg:text-center hover:text-white  text-start w-full rounded-xl lg:inline-block  lg:mt-0 text-black"
-                    >
-                        Blog
-                    </a>
-                    <a
-                        href=""
+                        href="/contact"
                         className="block text-black mt-4 hover:bg-gray-800 hover:text-white p-3 lg:w-20 w-full lg:text-center  text-start w-full rounded-xl lg:inline-block  lg:mt-0 text-black"
                     >
                         Contact
