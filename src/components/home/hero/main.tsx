@@ -14,7 +14,7 @@ export default function Hero() {
                         another styles and find your favorite fancy text
                                             </p>
                     <div className="mx-auto flex justify-center items-center">
-                        <a className="bg-zinc-900 p-3 text-white hover:bg-black w-50 font-semibold text-center rounded-xl mx-auto mt-3 ">
+                        <a href="#features" className="bg-zinc-900 p-3 text-white hover:bg-black w-50 font-semibold text-center rounded-xl mx-auto mt-3 ">
                             Get Started
                         </a>
                     </div>

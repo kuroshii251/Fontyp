@@ -8,10 +8,8 @@ export default function Footer() {
                             <h1 className="text-white font-semibold text-3xl">
                                 Fontyp
                             </h1>
-                            <p className="text-white mt-5 w-auto">
-                                Fontyp is a online Stylish Name Generator. Fontyp
-                        converts the text into different fonts, symbols, emoji,
-                        and name styles.
+                            <p className="text-white mt-5 w-100">
+                               Fontyp is a fancy text generator website that allow users to style their nicknames to make them look more aesthetic.
                             </p>
                         </div>
                     </div>

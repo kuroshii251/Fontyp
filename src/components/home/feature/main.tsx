@@ -1,7 +1,7 @@
 export default function Feature() {
     return (
         <>
-            <div className="col pb-10">
+            <div className="col pb-10" id="features">
                 <div className="">
                     <h1 className="text-4xl font-bold text-center">Features</h1>
                     <div className="grid lg:grid-cols-3 grid-cols-1 lg:space-y-2 mx-auto space-y-5 items-center justify-center place-content-center place-items-center pt-20 ">
