@@ -2,68 +2,40 @@ export default function Footer() {
     return (
         <>
             <div className="bg-black p-3  ">
-                <div className="grid grid-cols-3 p-5 ">
+                <div className="flex space-between space-y-5 p-5 ">
                     <div className="w-1/2">
                         <div className="">
                             <h1 className="text-white font-semibold text-4xl">
                                 Fontyp
                             </h1>
                             <p className="text-white mt-5">
-                                Fontyp is a online Stylish Nickname Generator
-                                and Fancy Generator. Fontyp converts the
-                                regulaar text into different cool fonts,
-                                symbols, emoji, and nickname styles.
+                                Fontyp is a online Stylish Name Generator. Fontyp
+                        converts the text into different fonts, symbols, emoji,
+                        and name styles.
                             </p>
                         </div>
                     </div>
-                    <div className="col w-1/2">
-                        <h1 className="text-white">Menu</h1>
-                        <ul>
-                            <li className="mt-3">
-                                <a
-                                    href=""
-                                    className="text-white  font-semibold"
-                                >
-                                    Home
-                                </a>
-                            </li>
-                            <li className="mt-3">
-                                <a href="" className="text-white">
-                                    About
-                                </a>
-                            </li>
-                            <li className="mt-3">
-                                <a href="" className="text-white">
-                                    Features
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                 
 
-                    <div className="col w-1/4">
+                    <div className="col w-1/4 mt-5">
                         <h1 className="text-white">Resources</h1>
                         <ul>
                             <li className="mt-3">
-                                <a href="" className="text-white font-semibold">
-                                    Name
+                                <a href="/nickname-converter" className="text-white">
+                                    Nickname
                                 </a>
                             </li>
                             <li className="mt-3">
                                 <a
-                                    href=""
-                                    className="text-white  font-semibold"
+                                    href="/custom-nickname"
+                                    className="text-white"
                                 >
-                                    Keyboard
+                                    Custom
                                 </a>
                             </li>
                             <li className="mt-3">
-                                <a href="" className="text-white">
+                                <a href="/font" className="text-white">
                                     Font
-                                </a>
-                            </li>
-                            <li className="mt-3">
-                                <a href="" className="text-white">
-                                    Blog
                                 </a>
                             </li>
 

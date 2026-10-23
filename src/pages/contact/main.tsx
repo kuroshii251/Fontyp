@@ -15,16 +15,16 @@ export default function ContactPage(){
                 <form action="" method="POST">
                     <div className="">
   <h1>Email</h1>
-                <input type="text"  className="p-2 w-100 shadow-black shadow-sm rounded-md" placeholder="Email..."/>
+                <input type="text"  className="p-2 w-150 shadow-black shadow-sm rounded-md" placeholder="Email..."/>
                     </div>
 
 <div className="mt-5">
  <h1>Message</h1>
-                <textarea className="resize-none p-2 w-100 shadow-black shadow-sm rounded-md h-50" placeholder="Fill message..." />
+                <textarea className="resize-none p-2 w-150 shadow-black shadow-sm rounded-md h-50" placeholder="Fill message..." />
 </div>
                
 
-                <button type="submit" className="mx-auto bg-black text-white flex justify-center items-center shadow-black w-50 text-center mt-5 shadow-sm p-3 rounded-md">Submit</button>
+                <button type="submit" className="mx-auto bg-black text-white flex justify-center items-center shadow-black w-50 text-center mt-5 shadow-sm p-3 rounded-md font-semibold hover:bg-zinc-900">Submit</button>
                 </form>
 
             </div>

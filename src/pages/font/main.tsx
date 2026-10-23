@@ -35,8 +35,8 @@ export default function FontPage(){
    <div className=" items-center justify-center pt-20">
    
     <div className="pb-10">
-  <h1 className="text-4xl text-center font-bold mb-3">Fancy Text</h1>
-                    <p className="text-center text-md">Input your name and copy your stylish name</p>
+  <h1 className="text-4xl text-center font-bold mb-3">Fancy Font</h1>
+                    <p className="text-center text-md">Input your name here and copy your fancy name</p>
     </div>
                   
 
@@ -50,13 +50,13 @@ export default function FontPage(){
                         <div className="p-5 w-100 h-50 shadow-black shadow-sm rounded-xl" key={itemFont.id}>
                             <div className="flex">
   <button onClick={() => handleCopyText(converttofont, itemFont.id)}>
+    
 
-                                {copyText === itemFont.id ?  (
+                                {copyText === itemFont.id ?  
                         <i className="fa-solid fa-clipboard-check"></i>
-                                ) : (
+                                 : 
 
                                 <i className="fa-solid fa-clipboard"></i>
-                                )
                                 }
 
                             </button>

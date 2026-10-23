@@ -13,6 +13,17 @@ const data = [
     { id: 8, first_symbol: "꧁༺", last_symbol: "༻꧂" },
     { id: 9, first_symbol: "", last_symbol: "ツ" },
     { id: 10, first_symbol: "Whos ", last_symbol: "ぷ" },
+    {id: 11, first_symbol: "⌗!! ꒰  ", last_symbol: "  ꒱ 🥝"},
+    {id: 12, first_symbol: "*ੈ✩‧₊˚", last_symbol: "*ੈ✩‧₊˚"},
+    {id: 13, first_symbol: "𐔌  ₊ ", last_symbol: " 𐙚 ꒱.˚࿔ "},
+    {id: 14, first_symbol: "✮`,— ", last_symbol: " .ᐟ.ᐟ "},
+    {id: 15, first_symbol: "⋆˚࿔ ", last_symbol: "𝜗𝜚˚⋆"},
+    {id: 16, first_symbol: "「 ✦  ", last_symbol: " ✦ 」"},
+    {id: 17, first_symbol: "⠀︵⠀", last_symbol: " ⠀◌Ⳋ𝅄 "},
+    {id: 18, first_symbol: "⋆˚࿔ ", last_symbol: "𝜗𝜚˚⋆"},
+    {id: 19, first_symbol: "𐔌 . ⋮ ", last_symbol: " .ᐟ ֹ ₊ ꒱ "},
+    {id: 20, first_symbol: "《★~ ", last_symbol: " ~★ 》"},
+
 ];
 
 export default function NameConverter() {
@@ -27,23 +38,26 @@ export default function NameConverter() {
     return (
         <>
             <Navbar />
-            <div className="flex justify-center items-center place-items-center h-200">
+            <div className="flex justify-center items-center py-20">
                 <div className="p-3 ">
                     <div className="col space-y-5">
-                        <h1 className="text-center font-semibold text-2xl">
+                        <div className="col pb-5">
+ <h1 className="text-center font-bold text-4xl">Nickname Converter</h1>
+                        <p className="text-center text-lg">
                             Input Your Name
-                        </h1>
+                        </p>
+                        </div>
                         <input
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             type="text"
                             placeholder="Input your name"
-                            className="p-3 w-100 rounded-md mx-auto flex justify-center items-center shadow-black shadow-sm border border-black border border-black"
+                            className="p-3 w-100 mt-3 rounded-md mx-auto flex justify-center items-center shadow-black shadow-sm border border-black border border-black"
                         />
                     </div>
 
                     <div className="col pt-5">
-                        <div className="grid grid-cols-2 space-x-3">
+                        <div className="grid lg:grid-cols-2 grid-cols-1 space-y-3 space-x-3">
                             {data.map((item) => (
                                 <div
                                     key={item.id}
@@ -55,16 +69,15 @@ export default function NameConverter() {
                                                 handleCopyText(item.id)
                                             }
                                         >
-                                            {copy === item.id ? (
+                                            {copy === item.id ? 
                                                     <i className="fa-solid fa-clipboard-check"></i>
-                                            ) : (
+                                             : 
                                                 <i className="fa-solid fa-clipboard"></i>
-                                            )}
+                                            }
                                         </button>
 
                                         <h1
                                             id="name"
-                                            aria-valuetext="Jackson"
                                             className="w-90 text-center break-all p-2 "
                                         >
                                             {item.first_symbol +
