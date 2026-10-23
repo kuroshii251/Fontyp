@@ -28,9 +28,9 @@ const data = [
 
 export default function NameConverter() {
     const [name, setName] = useState("");
-    const [copy, setCopy] = useState("");
-    const handleCopyText = (id) => {
-        const name = document.getElementById("name").textContent.trim();
+    const [copy, setCopy] = useState<Number | null>(null);
+    const handleCopyText = (id: number) => {
+        const name = document.getElementById("name")?.textContent?.trim() ?? "";
         navigator.clipboard.writeText(name);
         setCopy(id);
     };
