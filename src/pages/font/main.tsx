@@ -30,24 +30,24 @@ export default function FontPage(){
     return (
         <>
         <Navbar/>
-        <div className="flex-1 justify-center items-center h-180 p-10">
-            <div className="grid grid-cols-2 shadow-black shadow-sm rounded-xl">
+        <div className="flex-1 justify-center items-center  p-10">
+            <div className="grid lg:grid-cols-2 lg:shadow-black lg:shadow-sm rounded-xl">
    <div className=" items-center justify-center pt-20">
    
     <div className="pb-10">
   <h1 className="text-4xl text-center font-bold mb-3">Fancy Font</h1>
-                    <p className="text-center text-md">Input your name here and copy your fancy name</p>
+                    <p className="text-center text-md">Input your name and copy your best the name in a fancy font</p>
     </div>
                   
 
                 <input type="text" value={inputname} className="p-4 w-100 flex justify-center items-center mx-auto rounded-lg shadow-black shadow-sm" onChange={(e) => setInputName(e.target.value)} placeholder="Input Your Name"/>
 
             </div>
-             <div className="grid grid-cols-1 space-y-5 gap-10 pt-10 overflow-y-auto h-100">
+             <div className="grid grid-cols-1 space-y-5 gap-10 pt-10 lg:overflow-y-auto overflow-y-none lg:h-100 h-auto">
                 {fontDatas.map((itemFont) => {
-                    const converttofont = transformText(inputname, itemFont.stylefont )
+                    const converttofont = transformText(inputname || "Jackson", itemFont.stylefont  )
                     return (
-                        <div className="p-5 w-100 h-50 shadow-black shadow-sm rounded-xl" key={itemFont.id}>
+                        <div className="p-5 w-100 ml-5 h-50 shadow-black shadow-sm  rounded-xl" key={itemFont.id}>
                             <div className="flex">
   <button onClick={() => handleCopyText(converttofont, itemFont.id)}>
     
@@ -63,8 +63,8 @@ export default function FontPage(){
                                 <h1 className="text-center mx-auto">{itemFont.fontname}</h1>
                             </div>
                           
-                            <div className="flex justify-center items-center">
-                                <h1 className="text-lg break-all">{converttofont}</h1>
+                            <div className="flex justify-center mx-auto items-center">
+                                <h1 className="text-2xl text-center pt-10 break-all">{converttofont}</h1>
                             </div>
                         </div>
                     )
@@ -76,7 +76,8 @@ export default function FontPage(){
          
            
         </div>
-        <Footer/>
+                <Footer/>
+
         </>
     )
 }

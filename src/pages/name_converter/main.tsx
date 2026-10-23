@@ -41,10 +41,10 @@ export default function NameConverter() {
             <div className="flex justify-center items-center py-20">
                 <div className="p-3 ">
                     <div className="col space-y-5">
-                        <div className="col pb-5">
+                        <div className="col pb-3">
  <h1 className="text-center font-bold text-4xl">Nickname Converter</h1>
-                        <p className="text-center text-lg">
-                            Input Your Name
+                        <p className="text-center text-xl">
+                            Input your name and copy your best fancy text
                         </p>
                         </div>
                         <input
@@ -52,7 +52,7 @@ export default function NameConverter() {
                             onChange={(e) => setName(e.target.value)}
                             type="text"
                             placeholder="Input your name"
-                            className="p-3 w-100 mt-3 rounded-md mx-auto flex justify-center items-center shadow-black shadow-sm border border-black border border-black"
+                            className="p-3 lg:w-200 w-100 mt-2 rounded-md mx-auto flex justify-center items-center shadow-black shadow-sm border border-black border border-black"
                         />
                     </div>
 

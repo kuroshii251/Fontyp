@@ -8,19 +8,19 @@ export default function ContactPage(){
         <div className=" justify-center items-center pt-20 h-200">
             <div className="mx-auto ">  
    <h1 className="text-center text-4xl font-bold">Contact</h1>
-            <p className="text-center w-120 mt-5 mx-auto">If you have any question about Fontyp, or if you wan't request anyting about feature, contact here</p>
+            <p className="text-center w-120 mt-5 mx-auto">If you have any question about Fontyp, or if you wan't request anyting about the feature, contact us here</p>
             </div>
          
             <div className="flex justify-center  items-center pt-10">
-                <form action="" method="POST">
+                <form action="https://formspree.io/f/meaaqdpv" method="POST">
                     <div className="">
-  <h1>Email</h1>
-                <input type="text"  className="p-2 w-150 shadow-black shadow-sm rounded-md" placeholder="Email..."/>
+                    <h1>Email</h1>
+                <input type="email" name="email"  className="p-2 lg:w-150 w-100 shadow-black shadow-sm rounded-md" placeholder="Email..."/>
                     </div>
 
 <div className="mt-5">
  <h1>Message</h1>
-                <textarea className="resize-none p-2 w-150 shadow-black shadow-sm rounded-md h-50" placeholder="Fill message..." />
+                <textarea name="message" className="resize-none p-2 lg:w-150 w-100 shadow-black shadow-sm rounded-md h-50" placeholder="Fill message..." />
 </div>
                
 
