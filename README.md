@@ -1,3 +1,6 @@
+
+# Fontyp
+
 <img width="959" height="443" alt="Screenshot 2026-10-24 011746" src="https://github.com/user-attachments/assets/5a062000-8ecf-4723-9d8e-4e610f705b3a" />
 
 
@@ -8,7 +11,7 @@ Fontyp is a fancy text generator website that allow users to style their nicknam
 # Installation and Running
 Clone this repository by using
 ```
-git clone https://github.com/kuroshii251/Fontyp
+git clone https://github.com/kuroshii251/Fontype
 ```
 
 ```
