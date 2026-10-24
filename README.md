@@ -6,7 +6,7 @@
 
 # What Is Fontyp?
 
-Fontyp is a fancy text generator website that allow users to style their nicknames to make them look more aesthetic. This fancy text can be used in instagram, facebook, etc. I created this website using React JS
+Fontyp is a fancy text generator website that allow users to style their nicknames to make them look more aesthetic. This fancy text can be used in instagram, facebook, etc. I'm created this website using React JS
 
 # Installation and Running
 Clone this repository by using
@@ -22,4 +22,7 @@ Open the clone project and running this
 ```
 npm run dev
 ```
+
+Or if you would like to see the demo, you can check on this website
+https://fontyp.vercel.app/
 
